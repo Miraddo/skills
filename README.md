@@ -1,6 +1,6 @@
 # Go Best-Practice Skills for Claude Code
 
-A collection of **14 [Claude Code](https://claude.com/claude-code) skills** that
+A collection of **15 [Claude Code](https://claude.com/claude-code) skills** that
 encode idiomatic, production-grade Go (golang) practice — project structure, the
 toolchain, concurrency, testing, HTTP/DB/observability/security, and the
 monolith → modular-monolith → microservices progression.
@@ -31,6 +31,7 @@ model can pull in related guidance automatically.
 | [`go-database`](go-database/SKILL.md) | `database/sql` vs pgx/pgxpool, parameterized queries, pool tuning, transactions, sqlc, migrations. |
 | [`go-observability`](go-observability/SKILL.md) | `slog` structured logging, OpenTelemetry traces/metrics, Prometheus, trace/request-ID correlation. |
 | [`go-security`](go-security/SKILL.md) | govulncheck/gosec, input validation, no SQL injection, secrets, `crypto/rand`, TLS, OWASP API risks. |
+| [`go-security-architecture`](go-security-architecture/SKILL.md) | Security-first design: STRIDE threat modeling, trust boundaries, defense in depth, zero trust, authN/authZ & secrets architecture. |
 | [`go-performance`](go-performance/SKILL.md) | pprof (CPU/heap/block/mutex), benchmarks + benchstat, escape analysis, cutting allocations. |
 | [`go-tooling-ci`](go-tooling-ci/SKILL.md) | gofumpt + golangci-lint config, Makefile, GitHub Actions, govulncheck, pre-commit hooks. |
 
