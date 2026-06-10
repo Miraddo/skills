@@ -53,14 +53,14 @@ Skills live in `~/.claude/skills/`. Copy the skill folders there:
 
 **macOS / Linux**
 ```bash
-git clone https://github.com/Miraddo/skills.git
-cp -r skills/go-* ~/.claude/skills/
+git clone https://github.com/Miraddo/go-skills.git
+cp -r go-skills/go-* ~/.claude/skills/
 ```
 
 **Windows (PowerShell)**
 ```powershell
-git clone https://github.com/Miraddo/skills.git
-Copy-Item skills\go-* "$env:USERPROFILE\.claude\skills\" -Recurse
+git clone https://github.com/Miraddo/go-skills.git
+Copy-Item go-skills\go-* "$env:USERPROFILE\.claude\skills\" -Recurse
 ```
 
 Restart Claude Code (or start a new session). The skills auto-trigger from their
